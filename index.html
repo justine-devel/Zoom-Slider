@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Justine  De Vel</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+
+			<h1>Portfolio</h1>
+
+			<nav>
+				<a href="https://www.facebook.com/justine.devel" class="bp-icon bp-icon-prev" data-info="Facebook"><span>Facebook</span></a>
+				<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+				<a href="https://www.instagram.com/justinedevel/" class="bp-icon bp-icon-drop" data-info="Instagram"><span>Instagram</span></a>
+				<a href="mailto:justinedevel33@gmail.com" class="bp-icon bp-icon-archive" data-info=Gmail><span>Gmail</span></a>
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/MOCK UP BRUT.jpg" alt="petit chat sous la neige" />
+						<div class="preview">
+					<!--		<img src="images/iphone-content-preview.png" alt="iPhone app preview" /> -->
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>PACKAGING</span> Lateyron Crémant</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/mockup jaila.jpg" alt="jaila" />
+						<div class="preview">
+
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>PACKAGING </span> Jaila Cosmétique</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/mock-up-pack-vin.png" alt="MacBook" />
+						<div class="preview">
+
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>PACKAGING</span> Bordeaux Vin</h2>
+			</div>
+
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/mockupwine.png" alt="bx vin" />
+
+						<div class="preview">
+
+							
+
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>BRANDING</span> Bordeaux Vin</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/MOCK UP BRUT.jpg" alt="crémant" />
+				<div class="content__item-inner">
+					<h2>Le crémant Lateyron</h2>
+
+					<p>Création d'une nouvelle identité pour les créments bruts et doux Lateyron, afin de rajeunir l'identité de la marque.</p>
+					<p><a href="https://justinedevelf326.myportfolio.com//">Learn more about this project &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/mock up jaila.jpg" alt="jaila" />
+				<div class="content__item-inner">
+					<h2>Les cosmétiques Jaila</h2>
+<p> Création d'une identité pour une gamme de produits cosmétiques basés sur la médecine ayruvédique et indienne.</p>
+					<p><a href="https://justinedevelf326.myportfolio.com/">Learn more about this project &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/mock-up-pack-vin.png" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>Packaging Bordeaux vin attitude</h2>
+
+					<p>Ce packaging sobre accompagne notre gamme de bouteille Bordeaux Vin attitude. Il est blanc et sobre afin de faire ressortir les visuels et de les mettre en valeur.</p>
+					<p><a href="https://justinedevelf326.myportfolio.com/">Learn more about this project &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/mockupwine.png" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>Bouteille de vins Bordeaux Vin attitude</h2>
+
+					<p>Création de trois bouteilles pour le concours Bordeaux Vin attitude.</p>
+					<p><a href="https://justinedevelf326.myportfolio.com/">Learn more about this project &xrarr;</a></p>
+				</div>
+			</div>
+
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
